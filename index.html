@@ -44,11 +44,12 @@
     <hr>
 
 
-    <h2>@links</h2>
+    <h2>@lists</h2>
 
     <h3>unordered list</h3>
+    <p> This list will not have the bullet.</p>
 
-    <ul>
+    <ul class="non-bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
@@ -59,43 +60,44 @@
     <h3>unordered inline list</h3>
 
     <ul>
-        <li>Inline Item one</li>
-        <li>Inline Item two</li>
-        <li>Inline Item three</li>
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item two</li>
+        <li class="list-item-inline">Inline Item three</li>
 
 
     </ul>
 
     <h3>reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>milk</li>
-        <li>milk2</li>
-        <li>milk3</li>
+        <li>eggs</li>
+        <li>break</li>
     </ol>
 
     <hr />
 
     <h2>@nav</h2>
+    
 
-    <nav>
-        <div>IamBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand" >IamBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
             <li>
-                <a href="/">home products</a>
+                <a class="link" href="/">home products</a>
             </li>
             <li>
-                <a href="/">about</a>
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
 
     <hr>
 
-    <h2>header</h2>
+    <h2>@header</h2>
 
     <header>
         <img src="images/myimage.svg" />
