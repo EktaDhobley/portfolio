@@ -2,8 +2,9 @@
 
 :root{
     --primary-color:#6EE7B7;
-    --off-white: #D1D5DB;
-    --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
+    --dark-gray: #D1D5DB;
+    --medium-yellow: #F59E0B;
 }
 body{
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -44,7 +45,7 @@ hr{
 
 
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: var(--medium-yellow);
     border-radius: 0.5rem;
     color: white
 
