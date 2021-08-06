@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Style+Script&display=swap');
+
+
 
 :root{
     --primary-color:#6EE7B7;
@@ -7,7 +10,8 @@
     --medium-yellow: #F59E0B;
 }
 body{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    
     margin: 0px;
 
 }
